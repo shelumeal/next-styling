@@ -1,7 +1,10 @@
+import styles from "../styles/Contact.module.css";
+
 function contact() {
   return (
-    <div>
+    <div className={styles.highlight}>
       <h2>Contact</h2>
+      Sub title
     </div>
   );
 }
